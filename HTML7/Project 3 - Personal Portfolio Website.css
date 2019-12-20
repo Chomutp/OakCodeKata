@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+#welcome-section {
+  height: 500px;
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-section h1 {
+  font-family: sans-serif;
+  color: white;
+  font-size: 55px;
+  margin: 0;
+}
+#welcome-section p {
+  font-family: Poppins;
+  color: #be3144;
+  font-size: 28px;
+  font-style: italic;
+  margin: 0;
+}
+
+#project {
+  padding: 8em 2em;
+  background-color: #45567d;
+}
+
+#project h2 {
+  margin: 0 0 55px 0;
+  font-family: sans-serif;
+
+  border-bottom-style: solid;
+  font-size: 40px;
+  color: white;
+}
+
+#project div {
+  margin-bottom: 30px;
+}
+
+.card-body {
+  margin: 0;
+}
+/* #project a {
+  background-color: #303841;
+} */

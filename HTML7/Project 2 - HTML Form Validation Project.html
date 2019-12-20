@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1 style="color:navy;">A Simple Form</h1>
+    </div>
+
+    <div>
+      <h2
+        style="color: rgb(132, 132, 252); font-family: serif; font-style: italic;"
+      >
+        Form Fundamentals
+      </h2>
+    </div>
+
+    <div>
+      <form>
+        <fieldset>
+          <legend>Customer Info</legend>
+          <br />
+
+          Name:
+          <input type="text" placeholder="Enter your name" required size="50" />
+          <br /><br />
+          Telephone:
+          <input
+            type="text"
+            placeholder="Pattern; 1-234-567-8910"
+            required
+            size="50"
+          />
+          <br /><br />
+          E-mail address:
+          <input
+            type="text"
+            placeholder="Enter your email address"
+            required
+            size="50"
+          />
+          <br /><br />
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>Books</legend>
+
+          <input type="text" name="productlist" list="books" size="45" />
+          <datalist id="books">
+            <option value="THE LITTLE PRINCE"> </option>
+            <option
+              value="THE CULTURAL LANDSCAPE AN INTRODUCTION TO HUM MAN GEOGRAPHY (GLOBAL EDITION)"
+            >
+            </option>
+            <option value="GUINNESS WORLD RECORDS 2020 (HC)"> </option>
+            <option
+              value="THE DIGITAL PHOTOGRAPHY BOOK PHOTO RECIPES (P PART 5)"
+            >
+            </option>
+            <option value="GMAT OFFICIAL ADVANCED QUESTIONS"> </option>
+          </datalist>
+
+          Quantity (Maximum 5):
+          <select>
+            <option value="" hidden></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </fieldset>
+
+        <button>Submit</button>
+        <p style="margin-left:10% ;">
+          &copy;2011 Acme United. All rights reserved
+        </p>
+      </form>
+    </div>
+
+    <div></div>
+  </body>
+</html>
